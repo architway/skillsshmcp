@@ -182,13 +182,6 @@ The `skills.sh` search API returns this structure per skill (verified via live t
 
 > **Note:** The API does not return `description`, `stars`, or `updatedAt`.
 
-## Roadmap
-
-- [ ] **GitHub Stars ranking** — Multi-signal ranking using `installs × 0.3 + stars × 0.7`
-- [ ] **Description preview** — Extract YAML frontmatter descriptions before the AI picks
-- [ ] **Schema validator** — Catch API format changes before they corrupt the pipeline
-- [ ] **npm publish** — Install globally with `npx skillmcp` instead of cloning
-
 ## License
 
 MIT
