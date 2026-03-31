@@ -1,0 +1,19 @@
+{
+  "name": "skillmcp",
+  "version": "1.0.0",
+  "description": "JIT MCP server for skills.sh — search and inject SKILL.md files into AI agents on demand",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/index.ts",
+    "dev": "npx tsx --watch src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0"
+  }
+}
