@@ -3,7 +3,7 @@
     "skillmcp": {
       "command": "npx",
       "args": ["-y", "tsx", "src/index.ts"],
-      "cwd": "c:\\Users\\archi\\futureprojects\\skillsshmcp"
+      "cwd": "c:\\Users\\archi\\futureprojects\\SkillMCP"
     }
   }
 }

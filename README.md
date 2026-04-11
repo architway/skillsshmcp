@@ -33,8 +33,8 @@ SkillMCP fixes all three. The AI searches, selects, and injects skills on demand
 ### Install
 
 ```bash
-git clone https://github.com/architway/skillsshmcp.git
-cd skillsshmcp
+git clone https://github.com/architway/SkillMCP.git
+cd SkillMCP
 npm install
 ```
 
@@ -52,7 +52,7 @@ Add to `.mcp.json` in your project root:
     "skillmcp": {
       "command": "npx",
       "args": ["-y", "tsx", "src/index.ts"],
-      "cwd": "/absolute/path/to/skillsshmcp"
+      "cwd": "/absolute/path/to/SkillMCP"
     }
   }
 }
@@ -68,7 +68,7 @@ Add to `.gemini/settings.json` in your project root:
     "skillmcp": {
       "command": "npx",
       "args": ["-y", "tsx", "src/index.ts"],
-      "cwd": "/absolute/path/to/skillsshmcp"
+      "cwd": "/absolute/path/to/SkillMCP"
     }
   }
 }
@@ -84,7 +84,7 @@ Add to `.cursor/mcp.json` or `.windsurf/mcp.json`:
     "skillmcp": {
       "command": "npx",
       "args": ["-y", "tsx", "src/index.ts"],
-      "cwd": "/absolute/path/to/skillsshmcp"
+      "cwd": "/absolute/path/to/SkillMCP"
     }
   }
 }
@@ -101,13 +101,13 @@ Add to `.vscode/mcp.json`:
       "type": "stdio",
       "command": "npx",
       "args": ["-y", "tsx", "src/index.ts"],
-      "cwd": "/absolute/path/to/skillsshmcp"
+      "cwd": "/absolute/path/to/SkillMCP"
     }
   }
 }
 ```
 
-> **Note:** Replace `/absolute/path/to/skillsshmcp` with the actual path where you cloned the repo.
+> **Note:** Replace `/absolute/path/to/SkillMCP` with the actual path where you cloned the repo.
 
 ## How It Works
 
